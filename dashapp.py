@@ -16,7 +16,7 @@ conn = ps.connect(conn_string)
 cursor = conn.cursor()
 
 def ineff(x):
-    return x.loc[:,'bird_dist']/x.loc[:,'trip_distance']
+    return x.loc[:,'trip_distance']/x.loc[:,'bird_dist']
 
 def get_ineff_per(datehr, limit=0):
     try:

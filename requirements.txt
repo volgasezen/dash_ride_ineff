@@ -1,0 +1,7 @@
+dash=2.10.2
+geopandas
+geoplot
+numpy
+pandas
+plotly=5.14.1
+psycopg2
